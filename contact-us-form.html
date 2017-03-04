@@ -1,0 +1,55 @@
+<html>
+
+    <head>
+        <title>Contact Form</title>
+        <style>
+            form{
+            background: #eee;
+            display: inline-block;
+            
+            }
+            form span{
+                display: inline-block;
+                width: 80px;
+                background: #eee;
+                margin: 10px 3px 3px 8px;
+
+            }
+            form input, form select{
+                widows: 150px;
+                height: 20px;
+                margin: 0px 5px;
+                box-sizing: border-box;
+            }
+            form select{
+                margin: 1px;
+            }
+            form input[type='sumbit']{
+                display: block;
+                margin: 10px 0px 12px 98px;
+                width: 80px; height: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <span>First Name:</span>
+            <input type="text" name="firstname"><br>
+            <span>Sec Name:</span>
+            <input type="text" name="secondname"><br>
+            <span>Email:</span>
+            <input type="text" name="email"><br>
+            <span>Town:</span>
+            <select name="town">
+                <option value="1">Sofia</option>
+                <option value="2">Plovdiv</option>
+                <option value="3">Varna</option>
+                <option value="4">Burgas</option>
+                <option value="5">Ruse</option>
+                <option value="6">Pleven</option>
+            </select>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
